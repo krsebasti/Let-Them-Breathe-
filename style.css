@@ -1,0 +1,156 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Times New Roman', Times, serif;}
+
+.hero{background: url(bg.jpg);
+    background-size: 100%;
+height: 50;
+color: white;
+position: center}
+
+.overlay{background: rgba(0, 0, 0, 0.5);
+height: 100%;
+padding: 50px;}
+
+.hero h1 {font-size: 40px;
+margin-bottom: 10px;}
+
+.hero p{margin-bottom: 20%;}
+
+nav a{color: white;
+margin: 0 10px;
+text-decoration: none;}
+
+nav a:hover {color: #2c4d75;}
+
+.contacts {background-color: #b9cdee;}
+
+.section{padding: 50px;
+text-align: center;
+background: #3f6aa1;
+color: white;}
+
+.section.dark{background: #2c4d75;}
+
+.intro-section {
+background: #3f5f94;
+color: white;
+padding: 40px 20px;
+text-align: center;
+}
+
+.intro-title {
+background: #6f8fc0;
+padding: 10px;
+font-size: 28px;
+margin-bottom: 20px;
+}
+
+.intro-title {
+border-radius: 5px;}
+
+.intro-text {
+max-width: 900px;
+margin: auto;
+line-height: 1.6;
+margin-bottom: 30px;
+}
+
+.mission-vision {
+display: flex;
+justify-content: center;
+gap: 30px;
+flex-wrap: wrap;
+}
+
+.card {
+background: #7ea1d6;
+padding: 25px;
+border-radius: 15px;
+width: 350px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+text-align: center;
+}
+
+.card:hover {
+transform: translateY(-5px);
+transition: 0.3s;
+}
+
+.card h3 {
+font-size: 26px;
+margin-bottom: 10px;
+}
+
+.budget-section {
+padding: 40px;
+background: #4a6fa5;
+color: white;
+}
+
+.card-scroll {
+display: flex;
+gap: 20px;
+overflow-x: auto; 
+scroll-snap-type: x mandatory;
+padding-bottom: 10px;
+}
+
+.budget-card {
+min-width: 280px; 
+background: #6f8fc0;
+padding: 20px;
+border-radius: 10px;
+flex: 0 0 auto;
+scroll-snap-align: start;
+box-shadow: black 0 0 10px;
+margin: 20px;}
+
+.budget-card:hover {
+transform: translateY(-5px);
+transition: 0.3s;
+}
+
+.budget-p {text-align: center;
+color: white;}
+
+.contact-h2 {text-align: center;}
+
+.contact-container {display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 20px;
+margin: 20px;}
+
+.contact-container:hover {
+transform: translateY(-5px);
+transition: 0.3s;
+}
+
+.name {background: #6e93c5;
+flex-direction: row;
+display: flex;
+justify-content: center;
+align-items:center;}
+
+.purpose-container{display: flex;
+    align-items: center;
+    gap:30px;}
+
+.purpose-container img{width:300px;
+    border-radius: 10px;}
+
+p {color: black;
+justify-content: center;
+margin: 40px;
+text-align: center;}
+
+.group {text-align: left;
+    color: white;}
+
+    @media (max-width: 768px) {
+.mission-vision {
+flex-direction: column;
+align-items: center;
+}
+}
